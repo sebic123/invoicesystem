@@ -1,0 +1,46 @@
+.customer_table{
+	border-collapse: collapse;
+    border-spacing: 0;
+    width: 1000px;
+    border: 1px solid #ddd;
+}
+.customer_table_cell{
+	border: none;
+    text-align: left;
+    padding: 8px;
+}
+#add_customer_form{
+	visibility:hidden;
+	width:500px;
+	height:300px;
+	margin-top:-150px;
+	margin-left:-250px;
+	background-color:#fff;
+	border-radius:5px;
+	box-shadow:0px 0px 10px 0px #424242;
+	padding:10px;
+	box-sizing:border-box;
+	font-family:helvetica;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+#edit_customer_form{
+	visibility:visible;
+	width:500px;
+	height:300px;
+	margin-top:-150px;
+	margin-left:-250px;
+	background-color:#fff;
+	border-radius:5px;
+	box-shadow:0px 0px 10px 0px #424242;
+	padding:10px;
+	box-sizing:border-box;
+	font-family:helvetica;
+	position:absolute;
+	top:50%;
+	left:50%;
+	display:block;
+}
+
+
